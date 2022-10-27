@@ -1,5 +1,13 @@
 <project name="ant-sample" basedir="." default="build">
-
+  
+<!-- Define the SonarQube project properties -->
+<property name="sonar.projectKey" value="y7dewgealsdio" />
+<property name="sonar.projectName" value="Example of SonarScanner for Ant Usage" />
+<property name="sonar.projectVersion" value="1.0" />
+<property name="sonar.sources" value="src/piona" />
+<property name="sonar.java.binaries" value="build" />
+<property name="sonar.java.libraries" value="lib/*.jar" />
+...
     <!-- properties -->
     <property name="src.dir"     value="src"/>
     <property name="build.dir"   value="build"/>
