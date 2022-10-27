@@ -10,8 +10,8 @@
     <property name="sonar.projectKey" value="y7dewgealsdio" />
     <property name="sonar.projectName" value="Example of SonarScanner for Ant Usage" />
     <property name="sonar.projectVersion" value="1.0" />
-    <property name="sonar.sources" value="src/piona" />
-    <property name="sonar.java.binaries" value="build" />
+    <property name="sonar.exclusions" value="src/piona" />
+    <property name="sonar.java.binaries" value="build/jar/" />
     <property name="sonar.java.libraries" value="lib/*.jar" />
 
     <!-- targets -->
