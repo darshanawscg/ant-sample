@@ -6,7 +6,7 @@
     <property name="classes.dir" value="${build.dir}/classes"/>
     <property name="jar.dir"     value="${build.dir}/jar"/>
     <property name="doc.dir"     value="doc"/>
-    <property name="sonar.java.binaries" value="src/piona"/>
+    <property name="sonar.java.binaries" value="src/piona/**"/>
 
     <!-- targets -->
     <target name="compile" description="compile project">
